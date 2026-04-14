@@ -1,4 +1,4 @@
 *.css linguist-vendored
 
 *.conf linguist-detectable=true
-*.conf linguist-language=Properties
+*.conf linguist-language=INI
