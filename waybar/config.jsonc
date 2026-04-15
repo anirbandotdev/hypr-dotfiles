@@ -22,8 +22,8 @@
       "3": "3",
       "4": "4",
       "5": "5",
-      "active": "",
-      "default": "",
+      "active": " ",
+      "default": " ",
     },
     "persistent-workspaces": {
       "*": 5, // 5 workspaces by default on every monitor
