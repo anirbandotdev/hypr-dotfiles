@@ -12,12 +12,12 @@ hl.bind(mainMod .. " + R", hl.dsp.exec_cmd("~/.config/waybar/scripts/launch.sh")
 hl.bind(mainMod .. " + L", hl.dsp.exec_cmd(programs.wallpaperManager))
 
 -- To switch between windows in a floating workspace:
-hl.bind("SUPER + Tab", function()
+hl.bind("ALT + Tab", function()
 	hl.dispatch(hl.dsp.window.cycle_next()) -- Change focus to another window
 	hl.dispatch(hl.dsp.window.bring_to_top()) -- Bring it to the top
 end)
 
-bind = SUPER, F, fullscreen, 1
+hl.bind(mainMod .. " + F", hl.dsp.window.fullscreen({ mode = "maximized" }))
 
 -- Move focus with mainMod + arrow keys
 hl.bind(mainMod .. " + h", hl.dsp.focus({ direction = "left" }))
