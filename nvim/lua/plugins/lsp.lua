@@ -109,6 +109,25 @@ local lsps = {
 			filetypes = { "asm" },
 		},
 	},
+	{
+		"rust-analyzer",
+		{
+			cmd = {
+				"rust-analyzer",
+			},
+			filetypes = { "rust" },
+			on_attach = function(client, bufnr)
+				vim.lsp.completion.enable(true, client.id, bufnr, {
+					autotrigger = true,
+					convert = function(item)
+						return {
+							abbr = item.label:gsub("%b()", ""),
+						}
+					end,
+				})
+			end,
+		},
+	},
 }
 
 for _, lsp in pairs(lsps) do
