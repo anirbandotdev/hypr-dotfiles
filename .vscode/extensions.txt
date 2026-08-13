@@ -7,6 +7,7 @@ donjayamanne.python-environment-manager
 donjayamanne.python-extension-pack
 drblury.protobuf-vsc
 dsznajder.es7-react-js-snippets
+dustypomerleau.rust-syntax
 esbenp.prettier-vscode
 formulahendry.auto-close-tag
 formulahendry.auto-rename-tag
@@ -32,8 +33,11 @@ mvllow.rose-pine
 njpwerner.autodocstring
 rangav.vscode-thunder-client
 redhat.vscode-yaml
+rust-lang.rust-analyzer
 sumneko.lua
+tamasfe.even-better-toml
 tomoki1207.pdf
+tonybaloney.vscode-pets
 visualstudioexptteam.intellicode-api-usage-examples
 visualstudioexptteam.vscodeintellicode
 vscode-icons-team.vscode-icons
